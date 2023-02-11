@@ -1,8 +1,8 @@
 #reddit
-redditclid=("M-pFKo1ry2zb_v4XASOKBw")
-redditclscrt=("LDaeFpT9JJ6oR7s4voLX23jH6S-Haw")
-sub=("avatartrading")
+redditclid=("YOUR REDDIT CLIENT ID")
+redditclscrt=("YOUR REDDIT CLIENT SECRET")
+sub=("SUBREDDIT")
 
 #discord
-bottoken=("MTA3NDA1ODAxMDA1NTQxNzg2Ng.GoBUhO.NyQZj-Q1gO3InueyiTw7dMcNaMvYPH20DE7sSw")
+bottoken=("YOUR DISCORD BOT'S TOKEN")
 
