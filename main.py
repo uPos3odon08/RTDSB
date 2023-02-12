@@ -26,7 +26,7 @@ while True:
     async def on_message(message):
         if message.author == client.user:
             return
-        if message.content.startswith('!subs'):
+        if message.content.startswith(triggermessage):
             await message.channel.send(subs)
 
     client.run(bottoken)
