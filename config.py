@@ -5,4 +5,4 @@ sub=("SUBREDDIT")
 
 #discord
 bottoken=("YOUR DISCORD BOT'S TOKEN")
-
+triggermessage=("YOUR TRIGGER MESSAGE HERE")
