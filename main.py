@@ -1,6 +1,8 @@
 import discord
-from config import bottoken
-from redditcount import subs
+import praw
+import time
+from datetime import datetime
+from config import *
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -20,3 +22,12 @@ async def on_message(message):
         await message.channel.send(subs)
 
 client.run(bottoken)
+
+while True:
+    reddit = praw.Reddit(
+        client_id=redditclid,
+        client_secret=redditclscrt,
+        user_agent="subreddit member count scraper 1.6 by u/Pos3odon08")
+
+    now = datetime.now()
+    subs = reddit.subreddit(sub).subscribers
