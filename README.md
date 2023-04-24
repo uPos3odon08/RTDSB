@@ -12,6 +12,3 @@ How to set up/use
 7. and in config.py fill in the requested information and then run the script
 
 When you are done with the above stuff you are ready to invite the bot to your server by editing this link and pasting it into your browser
-
-
-https://discordapp.com/oauth2/authorize?client_id=[YOUR CLIENT ID]&scope=bot&permissions=274877910016
